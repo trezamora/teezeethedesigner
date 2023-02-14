@@ -1,0 +1,48 @@
+/* BUTTONS */
+
+.button1 {
+    display: inline-block;
+    background-color: $color-yellow;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: .5em;
+    margin: 1em .5em 1em .5em;
+
+    &:hover {
+        color: white;
+        animation: pulse1 750ms;
+        box-shadow: 0 0 0 .75em transparent;
+    }
+
+    @keyframes pulse1 {
+        0% {
+            box-shadow: 0 0 0 0 $color-yellow;
+
+        }
+    }
+
+}
+
+.button2 {
+    display: inline-block;
+    background-color: $color-yellow;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: .5em;
+    margin: 1em .5em 1em 0;
+
+    &:hover {
+        color: white;
+        animation: pulse2 750ms;
+        box-shadow: 0 0 0 .75em transparent;
+    }
+
+    @keyframes pulse2 {
+        0% {
+            box-shadow: 0 0 0 0 $color-yellow;
+        }
+    }
+
+}

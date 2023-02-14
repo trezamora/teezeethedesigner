@@ -1,0 +1,142 @@
+/* SYMANTIC GRID */
+
+$gridgap: 2%;
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -($gridgap / 2);
+    margin-right: -($gridgap / 2);
+    align-items: center;
+
+    >* {
+        margin: ($gridgap / 2);
+        flex-grow: 1;
+    }
+
+    &.centered {
+        justify-content: center;
+    }
+
+    &.swap {
+        flex-direction: row-reverse;
+    }
+
+    &.stack {
+        flex-direction: column;
+    }
+
+    &.align-top {
+        align-items: flex-start;
+    }
+
+    @media (min-width: $breakpoint-small) {
+
+        >* {
+            flex-grow: 0;
+        }
+
+        .one-whole {
+            width: 100% - $gridgap;
+        }
+
+        .one-half {
+            width: 50% - $gridgap;
+        }
+
+        .one-third {
+            width: 33.3333% - $gridgap;
+        }
+
+        .two-thirds {
+            width: 66.6666% - $gridgap;
+        }
+
+        .one-fourth {
+            width: 25% - $gridgap;
+        }
+
+        .three-fourth {
+            width: 75% - $gridgap;
+        }
+
+        .push-one-fourth {
+            margin-left: 25% + ($gridgap / 2);
+        }
+
+        .push-one-third {
+            margin-left: 33.333% + ($gridgap / 2);
+        }
+
+        .push-one-half {
+            margin-left: 50% + ($gridgap / 2);
+        }
+
+        /* GRID HELPERS */
+
+        .centered {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+
+}
+
+/* CUSTOM PROJECT GRID */
+
+.studies-wrapper {
+    font-size: 0;
+
+    .studies-links {
+        display: inline-block;
+        width: 25%;
+        height: 50vh;
+        position: relative;
+    }
+
+    .studies-links img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .studies-links:before,
+    .studies-links:after {
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+
+    }
+
+    .studies-links:before {
+        content: '';
+        height: 100%;
+        background: rgba(24, 24, 24, .9);
+    }
+
+    .studies-links:after {
+        content: attr(data-title);
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0 auto;
+        top: calc(50% - 0.5em);
+        left: 0;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .studies-links:hover:before,
+    .studies-links:hover:after {
+        opacity: 1;
+    }
+}
+
+@media (max-width:768px) {
+    .studies-links {
+        width: 100%;
+    }
+}

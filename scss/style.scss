@@ -1,0 +1,38 @@
+/* GLOBAL RESETS */
+* {
+    box-sizing: border-box;
+}
+
+// VARIABLES
+$color-background-light: rgba(244, 244, 244, 1);
+$color-background-dark: rgba(24, 24, 24, 1);
+$color-text-body-light: rgba(255, 255, 255, 1);
+$color-text-body-dark: rgba(0, 0, 0, 1);
+$color-green-light: rgba(84, 140, 47, 1);
+$color-green-dark: rgba(16, 73, 17, 1);
+$color-yellow: rgba(255, 212, 73, 1);
+$color-orange: rgba(249, 166, 32, 1);
+
+
+$font-family-sans: 'montserrat', sans-serif;
+$font-family-sans-alt: 'montserrat-alternates', sans-serif;
+$font-family-script: 'funkydori', sans-serif;
+
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/media";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/structure";
+@import "partials/helpers";
+@import "partials/sitenav";
+@import "partials/animations";
+@import "partials/projects";

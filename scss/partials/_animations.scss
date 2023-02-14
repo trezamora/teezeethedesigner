@@ -1,0 +1,196 @@
+/* ANIMATIONS */
+
+/* ANIMATED INTRO */
+
+.splash-intro {
+    position: static;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: grid;
+    place-items: center;
+    z-index: 5;
+    background-color: rgba(24, 24, 24, 1);
+    background-image: url('../img/desk-setup.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    /* ANIMATION CODE   */
+    animation-name: intro-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes intro-animation {
+    0% {}
+
+    80% {
+        // transform: translateY(0%);
+        height: 100vh;
+    }
+
+    100% {
+        // transform: translateY(-100%);
+        height: 0;
+    }
+}
+
+.splash-intro .splash-logo {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+
+    /* ANIMATION */
+    animation-name: logo-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+@keyframes logo-animation {
+    0% {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    25% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+// SCROLL TRIGGER ANIMATIONS
+/* UTILITY / HELPER CLASSES FOR ANIMATION */
+// SCALE-IN
+
+.animate-scale-in,
+[data-sectionstate="inactive"] .animate-scale-in {
+    transition: all 1000ms ease-out 350ms;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+[data-sectionstate="active"] .animate-scale-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+// SLIDE UP
+
+.animate-slide-up,
+[data-sectionstate="inactive"] .animate-slide-up {
+    transition: all 1000ms ease-out;
+    opacity: 0;
+    transform: translate(0, 50px);
+}
+
+[data-sectionstate="active"] .animate-slide-up {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.animate-slide-up-text,
+[data-sectionstate="inactive"] .animate-slide-up-text {
+    transition: all 1000ms ease-out;
+    opacity: 0;
+    transform: translate(0, 50px);
+}
+
+[data-sectionstate="active"] .animate-slide-up-text {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+// SLIDE LEFT RIGHT
+
+.animate-slide-left,
+[data-sectionstate="inactive"] .animate-slide-left {
+    transition: all 1000ms ease-out;
+    opacity: 0;
+    transform: translate(50px, 0);
+}
+
+[data-sectionstate="active"] .animate-slide-left {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.animate-slide-right,
+[data-sectionstate="inactive"] .animate-slide-right {
+    transition: all 1000ms ease-out;
+    opacity: 0;
+    transform: translate(-50px, 0);
+}
+
+[data-sectionstate="active"] .animate-slide-right {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+// DROP-IN CHILDREN WITH DELAY
+.animate-drop-delay,
+[data-sectionstate="inactive"] .animate-drop-delay {
+
+    * {
+        transition: all 500ms ease-out;
+        opacity: 0;
+        transform: translate(50, 0px);
+
+        &:nth-child(1) {
+            transition-delay: 600ms;
+        }
+
+        &:nth-child(2) {
+            transition-delay: 700ms;
+        }
+
+        &:nth-child(3) {
+            transition-delay: 800ms;
+        }
+
+        &:nth-child(4) {
+            transition-delay: 900ms;
+        }
+
+        &:nth-child(5) {
+            transition-delay: 1000ms;
+        }
+
+        &:nth-child(6) {
+            transition-delay: 1100ms;
+        }
+
+        &:nth-child(7) {
+            transition-delay: 1200ms;
+        }
+
+        &:nth-child(8) {
+            transition-delay: 1300ms;
+        }
+    }
+}
+
+[data-sectionstate="active"] .animate-drop-delay {
+
+    * {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

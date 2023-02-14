@@ -1,0 +1,57 @@
+/* RESET BODY */
+
+body {
+    margin: 0;
+}
+
+/* CONTAINER */
+
+.container {
+    margin: 0 auto;
+    padding: 0 5em;
+    display: grid;
+    justify-content: center;
+    max-width: 1500px;
+}
+
+.hero-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
+.project-container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
+.piko-container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
+/* MEDIA QUERIES */
+/* RESPONSIVE TYPOGRAPHY */
+
+// SMALL
+
+body {
+    font-size: 87.5%;
+}
+
+@media (min-width: $breakpoint-small) {
+    body {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: $breakpoint-large) {
+    body {
+        font-size: 112.5%;
+    }
+}

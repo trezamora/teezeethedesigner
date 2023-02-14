@@ -1,0 +1,85 @@
+/* SITE STRUCTURE */
+
+body {
+    background: $color-background-dark;
+    background-image: url(../img/portfolio-background.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// .bg-video {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     min-height: 100vh;
+//     width: 100%;
+//     z-index: -1;
+//     overflow: hidden;
+// }
+
+// .hero video {
+//     min-height: 100vh;
+//     width: 100%;
+//     object-fit: cover;
+// }
+
+.hero {
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+}
+
+
+@media (min-width: $breakpoint-small) {
+
+    .hero {
+
+        h1 {
+            font-size: 6rem;
+            margin: 0 auto;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+            width: 600px;
+        }
+
+        p {
+            font-size: 1.25rem;
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.about-home {
+    text-align: center;
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .about-home {
+        text-align: left;
+
+        h1 {
+            font-size: 6rem;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+            width: 600px;
+        }
+
+        p {
+            font-size: 1.25rem;
+            width: 500px;
+        }
+    }
+}

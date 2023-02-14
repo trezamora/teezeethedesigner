@@ -1,0 +1,166 @@
+/* CASE STUDY SECTIONS */
+
+.content-wrapper {
+    background-color: rgba(13, 44, 73, 0.8);
+}
+
+.design-section {
+    padding-top: 5em;
+    min-height: 50vh;
+
+    h1 {
+        padding: .25em 0;
+    }
+}
+
+.info-section {
+    min-height: 60vh;
+    padding: 4em 0;
+    padding-bottom: 1em;
+    padding-top: 0;
+
+}
+
+.user-section {
+    min-height: 50vh;
+}
+
+.display-section {
+    background-color: $color-background-light;
+    min-height: auto;
+    padding: 7em 0;
+}
+
+.number-block {
+    padding-right: 3em;
+}
+
+/* CASE STUDY STYLING */
+
+.project-hero {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .project-hero {
+        margin: 2em;
+    }
+}
+
+.project-text {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin-bottom: .25em;
+        align-self: flex-start;
+    }
+
+    h3 {
+        margin: .5em 0;
+        align-self: flex-start;
+    }
+
+    .project-skills {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+}
+
+.intro-full-width {
+    background-color: $color-background-light;
+    min-height: 50vh;
+    padding: 14em 0;
+
+    h3,
+    p {
+        color: $color-text-body-dark;
+    }
+}
+
+@media (max-width:768px) {
+    .intro-full-width {
+        padding: 6em 0;
+    }
+}
+
+.project-container {
+    padding: 3em;
+}
+
+.image-banner {
+
+    img {
+        width: 98%;
+        position: relative;
+        top: -90px;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+    }
+}
+
+.logo-color {
+    padding: 2em 0;
+}
+
+.info-text {
+    flex-direction: row-reverse;
+}
+
+.typography {
+    padding: 2em 0;
+}
+
+.icons {
+    padding: 2em 0;
+}
+
+.charts {
+    padding: 2em 0;
+
+    .two-thirds {
+        padding: 2em;
+    }
+}
+
+.piko-full-width {
+    background-image: url('../../img/piko-trangles-top.svg'), url(../../img/piko-trangles-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    background-color: $color-background-light;
+    min-height: 70vh;
+    padding: 6em 0;
+
+    h1,
+    p {
+        color: $color-text-body-dark;
+    }
+}
+
+.piko-icons {
+    background-color: $color-background-light;
+    min-height: 40vh;
+    padding: 3em 0;
+}
+
+.featured-section {
+    margin: 0 auto;
+    min-height: 80vh;
+    padding: 5em 0;
+    background-color: $color-background-light;
+
+    h3 {
+        color: $color-text-body-dark;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+}
