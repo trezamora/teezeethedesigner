@@ -29,31 +29,39 @@ body {
 
     h1 {
         font-size: 5rem;
+        font-size: clamp(1.5em, 12vw, 5em);
+        margin: 0 auto;
         margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+
+    p {
+        font-size: 1rem;
+        font-size: clamp(.25rem, 8vw, 1rem);
+        margin: 0 auto;
         color: $color-text-body-light;
     }
 }
 
 
-@media (min-width: $breakpoint-small) {
+// @media (min-width: $breakpoint-small) {
 
-    .hero {
+//     .hero {
 
-        h1 {
-            font-size: 6rem;
-            margin: 0 auto;
-            margin-bottom: .25em;
-            color: $color-text-body-light;
-            width: 600px;
-        }
+//         h1 {
+//             margin: 0 auto;
+//             margin-bottom: .25em;
+//             color: $color-text-body-light;
+//             width: 600px;
+//         }
 
-        p {
-            font-size: 1.25rem;
-            width: 600px;
-            margin: 0 auto;
-        }
-    }
-}
+//         p {
+//             font-size: 1.25rem;
+//             width: 600px;
+//             margin: 0 auto;
+//         }
+//     }
+// }
 
 .about-home {
     text-align: center;
