@@ -507,6 +507,22 @@ body {
   width: 55%;
 }
 
+.hana-hero-right {
+  width: 50%;
+  height: 100%;
+  background: url(../../img/hana-hero.webp);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.hana-hero-right:hover {
+  width: 55%;
+}
+
 /* SITE-HEADER SITE-NAV */
 .site-header .site-nav {
   padding: 1em 1em;
@@ -978,6 +994,16 @@ body {
 }
 .project-container {
   padding: 3em;
+}
+
+.image-banner img {
+  width: 98%;
+  position: relative;
+  top: -90px;
+  margin: 0 auto;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
 }
 
 .forge-banner {

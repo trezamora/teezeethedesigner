@@ -149,6 +149,18 @@
     padding: 3em;
 }
 
+.image-banner {
+
+    img {
+        width: 98%;
+        position: relative;
+        top: -90px;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+    }
+}
+
 .forge-banner {
     width: 98%;
     position: relative;

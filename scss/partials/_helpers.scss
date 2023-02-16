@@ -59,3 +59,17 @@
 .forge-hero-right:hover {
     width: 55%;
 }
+
+.hana-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../../img/hana-hero.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.hana-hero-right:hover {
+    width: 55%;
+}
