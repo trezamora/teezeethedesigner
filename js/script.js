@@ -53,18 +53,27 @@ new fullpage('#fullpage', {
 
 // LOTTIE READER
 // SECTIONS
-// var animation = bodymovin.loadAnimation({
-//     container: document.getElementById('portfolio-background'),
-//     render: 'svg',
-//     loop: true,
-//     autoplay: true,
-//     path: 'js/portfolio-background.json'
-// });
 
 var animation = bodymovin.loadAnimation({
-    container: document.getElementById('hero-animation'),
+    container: document.getElementById('forge-banner'),
     render: 'svg',
     loop: true,
     autoplay: true,
-    path: 'js/hero-animation.json'
+    path: 'js/forge-banner-1.json'
+});
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('forge-web-1'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/forge-web-ad-1.json'
+});
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('forge-web-2'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/forge-web-ad-2.json'
 });

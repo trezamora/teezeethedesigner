@@ -230,20 +230,6 @@ body {
   max-width: 1500px;
 }
 
-.project-container {
-  text-align: left;
-  margin: 0 auto;
-  padding: 0 3em;
-  max-width: 1500px;
-}
-
-.piko-container {
-  text-align: left;
-  margin: 0 auto;
-  padding: 0 3em;
-  max-width: 1500px;
-}
-
 /* MEDIA QUERIES */
 /* RESPONSIVE TYPOGRAPHY */
 body {
@@ -508,7 +494,7 @@ body {
 .forge-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/forge-hero.jpg);
+  background: url(../../img/forge-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -836,23 +822,78 @@ body {
 }
 
 /* CASE STUDY SECTIONS */
+.project-container {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 3em;
+  max-width: 1500px;
+}
+
+.light-container {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 3em;
+  max-width: 1500px;
+}
+
+.dark-container {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 3em;
+  max-width: 1500px;
+}
+
 .content-wrapper {
   background-color: rgba(13, 44, 73, 0.8);
 }
 
 .design-section {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5em;
-  min-height: 50vh;
+  min-height: 100vh;
 }
 .design-section h1 {
   padding: 0.25em 0;
 }
+.design-section .design-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: -110px;
+}
 
-.info-section {
-  min-height: 60vh;
-  padding: 4em 0;
-  padding-bottom: 1em;
+.asset-section {
   padding-top: 0;
+  padding-bottom: 4em;
+}
+
+.info-section .light-full-width {
+  background-color: rgb(244, 244, 244);
+  max-height: 100vh;
+  padding: 6em 0;
+}
+.info-section .light-full-width h1,
+.info-section .light-full-width p {
+  color: rgb(0, 0, 0);
+}
+.info-section .dark-full-width {
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+  padding: 6em 0;
+}
+.info-section .dark-full-width h1,
+.info-section .dark-full-width p {
+  color: rgb(255, 255, 255);
 }
 
 .user-section {
@@ -923,7 +964,7 @@ body {
 .intro-full-width {
   background-color: rgb(244, 244, 244);
   min-height: 50vh;
-  padding: 14em 0;
+  padding: 9em 0 14em 0;
 }
 .intro-full-width h3,
 .intro-full-width p {
@@ -939,40 +980,18 @@ body {
   padding: 3em;
 }
 
-.image-banner img {
+.forge-banner {
   width: 98%;
   position: relative;
-  top: -90px;
+  top: -110px;
   margin: 0 auto;
   text-align: center;
   display: -ms-grid;
   display: grid;
 }
 
-.logo-color {
+.assets {
   padding: 2em 0;
-}
-
-.info-text {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-.typography {
-  padding: 2em 0;
-}
-
-.icons {
-  padding: 2em 0;
-}
-
-.charts {
-  padding: 2em 0;
-}
-.charts .two-thirds {
-  padding: 2em;
 }
 
 .piko-full-width {
@@ -996,12 +1015,12 @@ body {
 
 .featured-section {
   margin: 0 auto;
-  min-height: 80vh;
+  max-height: 100vh;
   padding: 5em 0;
-  background-color: rgb(244, 244, 244);
+  background-color: transparent;
 }
 .featured-section h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: 0 auto;
   margin-bottom: 1em;

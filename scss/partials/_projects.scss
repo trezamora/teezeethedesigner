@@ -1,24 +1,78 @@
 /* CASE STUDY SECTIONS */
 
+// CONTAINERS
+.project-container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
+.light-container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
+.dark-container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 1500px;
+}
+
 .content-wrapper {
     background-color: rgba(13, 44, 73, 0.8);
 }
 
 .design-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding-top: 5em;
-    min-height: 50vh;
+    min-height: 100vh;
 
     h1 {
         padding: .25em 0;
     }
+
+    .design-wrapper {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -110px;
+    }
+}
+
+.asset-section {
+    padding-top: 0;
+    padding-bottom: 4em;
 }
 
 .info-section {
-    min-height: 60vh;
-    padding: 4em 0;
-    padding-bottom: 1em;
-    padding-top: 0;
 
+    .light-full-width {
+        background-color: $color-background-light;
+        max-height: 100vh;
+        padding: 6em 0;
+
+        h1,
+        p {
+            color: $color-text-body-dark;
+        }
+    }
+
+    .dark-full-width {
+        background-color: $color-background-dark;
+        min-height: 100vh;
+        padding: 6em 0;
+
+        h1,
+        p {
+            color: $color-text-body-light;
+        }
+    }
 }
 
 .user-section {
@@ -77,7 +131,7 @@
 .intro-full-width {
     background-color: $color-background-light;
     min-height: 50vh;
-    padding: 14em 0;
+    padding: 9em 0 14em 0;
 
     h3,
     p {
@@ -95,40 +149,17 @@
     padding: 3em;
 }
 
-.image-banner {
-
-    img {
-        width: 98%;
-        position: relative;
-        top: -90px;
-        margin: 0 auto;
-        text-align: center;
-        display: grid;
-    }
+.forge-banner {
+    width: 98%;
+    position: relative;
+    top: -110px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
 }
 
-.logo-color {
+.assets {
     padding: 2em 0;
-}
-
-.info-text {
-    flex-direction: row-reverse;
-}
-
-.typography {
-    padding: 2em 0;
-}
-
-.icons {
-    padding: 2em 0;
-}
-
-.charts {
-    padding: 2em 0;
-
-    .two-thirds {
-        padding: 2em;
-    }
 }
 
 .piko-full-width {
@@ -153,12 +184,12 @@
 
 .featured-section {
     margin: 0 auto;
-    min-height: 80vh;
+    max-height: 100vh;
     padding: 5em 0;
-    background-color: $color-background-light;
+    background-color: transparent;
 
     h3 {
-        color: $color-text-body-dark;
+        color: $color-text-body-light;
         text-align: center;
         margin: 0 auto;
         margin-bottom: 1em;
