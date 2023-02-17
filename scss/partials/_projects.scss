@@ -54,7 +54,7 @@
 
     .light-full-width {
         background-color: $color-background-light;
-        max-height: 100vh;
+        min-height: 100vh;
         padding: 6em 0;
 
         h1,
@@ -205,5 +205,50 @@
         text-align: center;
         margin: 0 auto;
         margin-bottom: 1em;
+    }
+}
+
+/* BACKGROUND CARDS */
+
+$cardgap: 4%;
+
+.card-section {
+    padding-top: 0;
+    padding-bottom: 10em;
+}
+
+.project-cards .row {
+    align-items: normal;
+    margin-left: -($cardgap / 2);
+    margin-right: -($cardgap / 2);
+
+    >* {
+        margin: ($cardgap / 2);
+    }
+
+    .one-half {
+        width: 50% - $cardgap;
+    }
+
+    .one-third {
+        width: 33.3333% - $cardgap;
+    }
+
+    .two-thirds {
+        width: 66.6666% - $cardgap;
+    }
+}
+
+.project-cards .row .bg-half {
+    background-color: rgba(35, 35, 35, 1);
+    padding: 3em;
+    border-radius: 5%;
+
+    h3 {
+        padding-top: 1em;
+    }
+
+    p {
+        line-height: 1.6;
     }
 }
