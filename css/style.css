@@ -495,7 +495,7 @@ video {
 .piko-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/piko-hero.jpg);
+  background: url(../img/piko-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -919,6 +919,15 @@ video {
 .info-section .light-full-width p {
   color: rgb(0, 0, 0);
 }
+.info-section .light-full-width-2 {
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+  padding: 6em 0;
+}
+.info-section .light-full-width-2 h1,
+.info-section .light-full-width-2 p {
+  color: rgb(255, 255, 255);
+}
 .info-section .dark-full-width {
   background-color: rgb(24, 24, 24);
   min-height: 100vh;
@@ -1085,6 +1094,9 @@ video {
 .project-cards .row > * {
   margin: 2%;
 }
+.project-cards .row .one-whole {
+  width: 96%;
+}
 .project-cards .row .one-half {
   width: 46%;
 }
@@ -1105,4 +1117,12 @@ video {
 }
 .project-cards .row .bg-half p {
   line-height: 1.6;
+}
+
+.bg-img {
+  background: rgb(24, 24, 24);
+  background-image: url(../../img/piko-logo.webp);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
 }

@@ -63,6 +63,17 @@
         }
     }
 
+    .light-full-width-2 {
+        background-color: $color-background-dark;
+        min-height: 100vh;
+        padding: 6em 0;
+
+        h1,
+        p {
+            color: $color-text-body-light;
+        }
+    }
+
     .dark-full-width {
         background-color: $color-background-dark;
         min-height: 100vh;
@@ -226,6 +237,10 @@ $cardgap: 4%;
         margin: ($cardgap / 2);
     }
 
+    .one-whole {
+        width: 100% - $cardgap;
+    }
+
     .one-half {
         width: 50% - $cardgap;
     }
@@ -251,4 +266,12 @@ $cardgap: 4%;
     p {
         line-height: 1.6;
     }
+}
+
+.bg-img {
+    background: $color-background-dark;
+    background-image: url(../../img/piko-logo.webp);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
 }

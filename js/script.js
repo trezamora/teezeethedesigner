@@ -77,3 +77,27 @@ var animation = bodymovin.loadAnimation({
     autoplay: true,
     path: 'js/forge-web-ad-2.json'
 });
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('hero-animation'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/hero-animation.json'
+});
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('piko-animation-collection'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/piko-animation-collection.json'
+});
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('piko-website-demo'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/piko-website-demo.json'
+});
