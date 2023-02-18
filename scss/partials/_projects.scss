@@ -282,10 +282,19 @@ $cardgap: 4%;
     }
 }
 
-.bg-img {
+.piko-bg-img {
     background: $color-background-dark;
     background-image: url(../../img/piko/piko-logo.webp);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 400px 300px;
+}
+
+.artforyou-pages {
+    background-color: $color-background-light;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
