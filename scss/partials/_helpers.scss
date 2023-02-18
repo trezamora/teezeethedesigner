@@ -73,3 +73,31 @@
 .hana-hero-right:hover {
     width: 55%;
 }
+
+.artforyou-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../../img/afy/artforyou-hero.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.artforyou-hero-right:hover {
+    width: 55%;
+}
+
+.kuaina-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../../img/kuaina/kuaina-hero.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.kuaina-hero-right:hover {
+    width: 55%;
+}
