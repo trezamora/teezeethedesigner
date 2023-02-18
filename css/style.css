@@ -543,7 +543,7 @@ video {
 .artforyou-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../../img/afy/artforyou-hero.webp);
+  background: url(../img/afy/artforyou-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -559,7 +559,7 @@ video {
 .kuaina-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../../img/kuaina/kuaina-hero.webp);
+  background: url(../img/kuaina/kuaina-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
