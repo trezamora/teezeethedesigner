@@ -15,6 +15,12 @@
     max-width: 1500px;
 }
 
+.light-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .dark-container {
     text-align: left;
     margin: 0 auto;
@@ -249,15 +255,23 @@ $cardgap: 4%;
         width: 33.3333% - $cardgap;
     }
 
+    .one-fourth {
+        width: 25% - $cardgap;
+    }
+
     .two-thirds {
         width: 66.6666% - $cardgap;
+    }
+
+    .three-fourth {
+        width: 75% - $cardgap;
     }
 }
 
 .project-cards .row .bg-half {
     background-color: rgba(35, 35, 35, 1);
     padding: 3em;
-    border-radius: 5%;
+    border-radius: 1em;
 
     h3 {
         padding-top: 1em;

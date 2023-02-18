@@ -901,6 +901,16 @@ video {
   max-width: 1500px;
 }
 
+.light-container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
 .dark-container {
   text-align: left;
   margin: 0 auto;
@@ -1135,14 +1145,20 @@ video {
 .project-cards .row .one-third {
   width: 29.3333%;
 }
+.project-cards .row .one-fourth {
+  width: 21%;
+}
 .project-cards .row .two-thirds {
   width: 62.6666%;
+}
+.project-cards .row .three-fourth {
+  width: 71%;
 }
 
 .project-cards .row .bg-half {
   background-color: rgb(35, 35, 35);
   padding: 3em;
-  border-radius: 5%;
+  border-radius: 1em;
 }
 .project-cards .row .bg-half h3 {
   padding-top: 1em;
