@@ -479,7 +479,7 @@ video {
 .isle-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/isle-hero.jpg);
+  background: url(../img/isle/isle-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -495,7 +495,7 @@ video {
 .piko-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/piko-hero.webp);
+  background: url(../img/piko/piko-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -511,7 +511,7 @@ video {
 .forge-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/forge-hero.webp);
+  background: url(../img/forge/forge-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -527,7 +527,7 @@ video {
 .hana-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/hana-hero.webp);
+  background: url(../img/hana/hana-hero.webp);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -1121,7 +1121,7 @@ video {
 
 .bg-img {
   background: rgb(24, 24, 24);
-  background-image: url(../../img/piko-logo.webp);
+  background-image: url(../../img/piko/piko-logo.webp);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 400px 300px;

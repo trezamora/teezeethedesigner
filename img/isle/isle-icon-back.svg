@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120.691" height="196.646" viewBox="0 0 120.691 196.646">
+  <g id="Group_1032" data-name="Group 1032" transform="translate(-538.999 -332.354)">
+    <text id="Back" transform="translate(578.691 525)" fill="#ededed" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Back</tspan></text>
+    <g id="Group_946" data-name="Group 946" transform="translate(540.628 333.854)">
+      <path id="Icon_awesome-backward" data-name="Icon awesome-backward" d="M3.508,66.237l58.7,48.917a9.789,9.789,0,0,0,16.051-7.521V9.8A9.789,9.789,0,0,0,62.209,2.278L3.508,51.195A9.816,9.816,0,0,0,3.508,66.237Zm78.268,0,58.7,48.917a9.789,9.789,0,0,0,16.051-7.521V9.8a9.789,9.789,0,0,0-16.051-7.521l-58.7,48.917A9.816,9.816,0,0,0,81.776,66.237Z" transform="translate(0 156.528) rotate(-90)" fill="none" stroke="#f4f4f4" stroke-width="3"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M44.131.9a1,1,0,0,1,1.527,0L88.4,51.411a1,1,0,0,1-.763,1.646H2.156a1,1,0,0,1-.763-1.646Z" transform="translate(103.449 142.569) rotate(180)" fill="#f4f4f4"/>
+      <path id="Polygon_5" data-name="Polygon 5" d="M44.131.9a1,1,0,0,1,1.527,0L88.4,51.411a1,1,0,0,1-.763,1.646H2.156a1,1,0,0,1-.763-1.646Z" transform="translate(103.449 65.025) rotate(180)" fill="#f4f4f4"/>
+    </g>
+  </g>
+</svg>
