@@ -5,7 +5,7 @@
 .project-container {
     text-align: left;
     margin: 0 auto;
-    padding: 0 3em;
+    padding: 3em 3em;
     max-width: 1500px;
 }
 
@@ -32,12 +32,14 @@
 .card-container {
     text-align: left;
     margin: 0 auto;
-    max-width: 1900px;
+    max-width: 1600px;
 }
 
 .content-wrapper {
     background-color: rgba(13, 44, 73, 0.8);
 }
+
+// SECTIONS
 
 .design-section {
     margin: 0 auto;
@@ -169,12 +171,7 @@
     }
 }
 
-.project-container {
-    padding: 3em;
-}
-
 .image-banner {
-
     img {
         width: 98%;
         position: relative;
@@ -192,10 +189,6 @@
     margin: 0 auto;
     text-align: center;
     display: grid;
-}
-
-.assets {
-    padding: 2em 0;
 }
 
 .piko-full-width {
@@ -242,11 +235,14 @@
     background-size: 400px 300px;
 }
 
-.artforyou-pages {
+
+
+.artforyou-overlay {
     background-color: $color-background-light;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    background-image: url(../../img/afy/artforyou-pages.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     width: 100%;
-    height: 100%;
 }
