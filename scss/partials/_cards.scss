@@ -1,0 +1,104 @@
+/* CARD LAYOUT */
+
+.project-cards {
+    margin: 1em;
+    // border: 2px solid red;
+}
+
+.card-set-1 {
+    @media (min-width: $breakpoint-small) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+// .card-set-2 {
+//     @media (min-width: $breakpoint-small) {
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         // grid-template-columns: minmax(100px, 200px) 1fr 1fr;
+//         // grid-template-rows: 1fr max-content;
+//         // display: flex;
+//         // justify-content: space-between;
+//     }
+
+//     @media (min-width: $breakpoint-medium) {
+//         display: grid;
+//         grid-template-columns: 2fr 1fr;
+//     }
+// }
+
+.bg-card {
+    background-color: rgba(35, 35, 35, 1);
+    padding: 3em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+
+    h3 {
+        padding-top: .5em;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    @media (min-width: $breakpoint-small) {
+        margin-bottom: 0;
+
+        &:first-child {
+            margin-right: 2em;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .iphone {
+        border: 2px solid blue;
+    }
+
+    &.card-layout-text-top {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+
+        > :first-child {
+            margin-bottom: -3.36em;
+        }
+    }
+
+    &.card-layout-text-right {
+        @media (min-width: $breakpoint-medium) {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            gap: 2em;
+        }
+    }
+
+    &.card-layout-text-left {
+        @media (min-width: $breakpoint-medium) {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2em;
+            grid-auto-flow: dense;
+
+            > :first-child {
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+
+            > :last-child {
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+        }
+    }
+}

@@ -18,6 +18,12 @@
     align-items: center;
 }
 
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
 .isle-hero-right {
     width: 50%;
     height: 100%;
