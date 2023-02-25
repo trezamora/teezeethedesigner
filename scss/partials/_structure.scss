@@ -88,10 +88,10 @@ video {
 // }
 
 .about-home {
-    text-align: center;
+    text-align: left;
 
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         margin-bottom: .25em;
         color: $color-text-body-light;
     }
@@ -111,7 +111,7 @@ video {
 
         p {
             font-size: 1.25rem;
-            width: 500px;
+            // width: 500px;
         }
     }
 }
