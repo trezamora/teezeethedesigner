@@ -1217,7 +1217,7 @@ video {
 /* CUSTOM PROJECT DISPLAY */
 .piko-bg-img {
   background: rgb(24, 24, 24);
-  background-image: url(../../img/piko/piko-logo.webp);
+  background-image: url(../img/piko/piko-logo.webp);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 400px 300px;
@@ -1225,7 +1225,7 @@ video {
 
 .artforyou-overlay {
   background-color: rgb(244, 244, 244);
-  background-image: url(../../img/afy/artforyou-pages.webp);
+  background-image: url(../img/afy/artforyou-pages.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
