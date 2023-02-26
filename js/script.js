@@ -53,6 +53,13 @@ new fullpage('#fullpage', {
 
 // LOTTIE READER
 // SECTIONS
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('tz-hero-animation-1'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/tz-hero-animation-1.json'
+});
 
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('forge-banner'),
