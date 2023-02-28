@@ -130,13 +130,8 @@
     display: flex;
 }
 
-@media (max-width:768px) {
-    .project-hero {
-        margin: 2em;
-    }
-}
-
 .project-text {
+    padding: 1em;
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -154,10 +149,28 @@
         align-self: flex-start;
     }
 
+    p {
+        font-size: 1rem;
+    }
+
     .project-skills {
         display: flex;
         gap: 15px;
         justify-content: space-between;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .project-text {
+        margin: 0 auto;
+        text-align: left;
+
+        h1 {
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+            width: 600px;
+        }
     }
 }
 

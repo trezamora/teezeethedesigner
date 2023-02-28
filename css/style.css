@@ -572,102 +572,198 @@ video {
     width: 55%;
   }
 }
-.isle-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/isle/isle-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .isle-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/isle/isle-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .isle-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.isle-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .isle-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/isle/isle-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .isle-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.piko-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/piko/piko-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .piko-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/piko/piko-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .piko-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.piko-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .piko-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/piko/piko-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .piko-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.forge-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/forge/forge-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .forge-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/forge/forge-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .forge-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.forge-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .forge-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/forge/forge-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .forge-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.hana-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/hana/hana-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .hana-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/hana/hana-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .hana-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.hana-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .hana-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/hana/hana-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .hana-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.artforyou-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/afy/artforyou-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .artforyou-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/afy/artforyou-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .artforyou-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.artforyou-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .artforyou-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/afy/artforyou-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .artforyou-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.kuaina-hero-right {
-  width: 50%;
-  height: 100%;
-  background: url(../img/kuaina/kuaina-hero.webp);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+@media (min-width: 1050px) {
+  .kuaina-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/kuaina/kuaina-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .kuaina-hero-right:hover {
+    width: 55%;
+  }
 }
-
-.kuaina-hero-right:hover {
-  width: 55%;
+@media (min-width: 768px) {
+  .kuaina-hero-right {
+    width: 50%;
+    height: 100%;
+    background: url(../img/kuaina/kuaina-hero.webp);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .kuaina-hero-right:hover {
+    width: 55%;
+  }
 }
-
 /* SITE-HEADER SITE-NAV */
 .site-header .site-nav {
   padding: 1em 1em;
@@ -1115,12 +1211,8 @@ video {
   display: flex;
 }
 
-@media (max-width: 768px) {
-  .project-hero {
-    margin: 2em;
-  }
-}
 .project-text {
+  padding: 1em;
   max-width: 500px;
   margin: 0 auto;
   display: -webkit-box;
@@ -1147,6 +1239,9 @@ video {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
+.project-text p {
+  font-size: 1rem;
+}
 .project-text .project-skills {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1157,6 +1252,17 @@ video {
           justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .project-text {
+    margin: 0 auto;
+    text-align: left;
+  }
+  .project-text h1 {
+    margin-bottom: 0.25em;
+    color: rgb(255, 255, 255);
+    width: 600px;
+  }
+}
 .intro-full-width {
   background-color: rgb(244, 244, 244);
   min-height: 50vh;
