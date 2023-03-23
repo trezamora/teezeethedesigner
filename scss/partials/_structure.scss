@@ -1,13 +1,13 @@
 /* SITE STRUCTURE */
 
-body {
-    background: $color-background-dark;
-    background-image: url(../img/portfolio-background.gif);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// body {
+//     background: $color-background-dark;
+//     background-image: url(../img/portfolio-background.gif);
+//     background-position: center;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
 video {
     width: 100% !important;
@@ -23,31 +23,31 @@ video {
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-// .bg-video {
+// .responsive-iframe {
 //     position: absolute;
 //     top: 0;
 //     left: 0;
-//     min-height: 100vh;
+//     bottom: 0;
+//     right: 0;
 //     width: 100%;
-//     z-index: -1;
-//     overflow: hidden;
+//     height: 100%;
 // }
 
-// .hero video {
-//     min-height: 100vh;
-//     width: 100%;
-//     object-fit: cover;
-// }
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-hero {
+    min-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
 
 .hero {
 
@@ -66,26 +66,6 @@ video {
         color: $color-text-body-light;
     }
 }
-
-
-// @media (min-width: $breakpoint-small) {
-
-//     .hero {
-
-//         h1 {
-//             margin: 0 auto;
-//             margin-bottom: .25em;
-//             color: $color-text-body-light;
-//             width: 600px;
-//         }
-
-//         p {
-//             font-size: 1.25rem;
-//             width: 600px;
-//             margin: 0 auto;
-//         }
-//     }
-// }
 
 .about-home {
     text-align: left;

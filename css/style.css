@@ -280,6 +280,20 @@ body {
     margin: 2em;
   }
 }
+.about-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 1em;
+}
+.about-icons .fa-brands {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  padding: 0 0.5em;
+  padding-left: 0;
+}
+
 /* MEDIA QUERIES */
 /* RESPONSIVE TYPOGRAPHY */
 body {
@@ -386,7 +400,7 @@ body {
 .studies-wrapper .studies-links {
   display: inline-block;
   width: 33.333%;
-  height: 50vh;
+  height: 100vh;
   position: relative;
 }
 .studies-wrapper .studies-links img {
@@ -431,15 +445,6 @@ body {
   }
 }
 /* SITE STRUCTURE */
-body {
-  background: rgb(24, 24, 24);
-  background-image: url(../img/portfolio-background.gif);
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 video {
   width: 100% !important;
   height: auto !important;
@@ -454,14 +459,21 @@ video {
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
+.bg-video {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
+  min-height: 100vh;
   width: 100%;
-  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-hero {
+  min-height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hero h1 {
@@ -802,6 +814,8 @@ video {
   padding: 0 1em;
   line-height: 1;
   text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -1114,10 +1128,6 @@ video {
   text-align: left;
   margin: 0 auto;
   max-width: 1600px;
-}
-
-.content-wrapper {
-  background-color: rgba(13, 44, 73, 0.8);
 }
 
 .featured-container {

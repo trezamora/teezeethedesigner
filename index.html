@@ -18,8 +18,8 @@
     <!-- FULLPAGE CSS FILE -->
     <link rel="stylesheet" href="css/fullpage.min.css">
 
-    <!-- P5 CSS FILE -->
-    <!-- <link rel="stylesheet" href="css/p5.css"> -->
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c02c3eda95.js" crossorigin="anonymous"></script>
 
     <!-- MAIN CSS FILE -->
     <link rel="stylesheet" href="css/style.css">
@@ -37,64 +37,83 @@
         <header class="site-header">
             <div class="site-id">
                 <div class="logo">
-                    <a href="#"><img src="img/tztd-logo-light.png" alt="TZD Square Logo" srcset="">
+                    <a href="index.html"><img src="img/tztd-logo-light.png" alt="TZD Square Logo">
                     </a>
                 </div>
                 <a href="index.html">
-                    <h1 class="hide-visually"><a href="#">TEEZEETHEDESIGNER</a></h1>
-                    <!-- <nav class="site-nav">
+                    <h1 class="hide-visually"><a>TEEZEETHEDESIGNER</a></h1>
+                    <nav class="site-nav">
                         <ul>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Behance</a></li>
-                            <li><a href="#">Dribble</a></li>
+                            <!-- <li><a href="#">Instagram</a></li> -->
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
-                    </nav> -->
+                    </nav>
             </div>
         </header>
 
+        <div class="bg-video">
+            <video class="video-hero" autoplay muted loop>
+                <source src="img/portfolio-background.mp4" type="video/mp4">
+            </video>
+        </div>
 
         <div id="fullpage">
             <section class="section hero animate-on-scroll">
-                <div class="hero-container animate-scale-in">
-                    <div class="tz-hero-animation-1" id="tz-hero-animation-1"></div>
-                    <!-- <div class="hero-text">
-                        <h1 class="headline">TEEZEETHEDESIGNER</h1>
-                        <p class="subheadline">.Identity Designer .UX/UI Designer .Print Designer</p>
-                    </div> -->
+                <div class="row">
+                    <div class="one-third">
+
+                    </div>
+                    <div class="push-one-third">
+                        <div class="hero-container animate-scale-in">
+                            <div class="tz-hero-animation-1" id="tz-hero-animation-1"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section class="section studies-home animate-on-scroll">
+                <!-- <div class="row">
+                    <div class="one-third">
+                        <a class="studies-links" href="piko.html" data-title="Piko">
+                            <img src="img/piko/piko-hero.webp" alt="Piko hero image" />
+                        </a>
+                    </div>
+                    <div class="one-third">
+                        <a class="studies-links" href="isle.html" data-title="ISLE">
+                            <img src="img/isle/isle-hero.webp" alt="ISLE hero image" />
+                        </a>
+                    </div>
+                    <div class="one-third">
+                        <a class="studies-links" href="forge.html" data-title="Forge">
+                            <img src="img/forge/forge-hero.webp" alt="Forge hero image" />
+                        </a>
+                    </div>
+                </div> -->
                 <div class="studies-wrapper animate-drop-delay">
-                    <!-- <a class="studies-links" href="#" data-title="Huaka&lsquo;i">
-                        <img src="img/huakai.jpg" />
-                    </a> -->
                     <a class="studies-links" href="piko.html" data-title="Piko">
-                        <img src="img/piko/piko-hero.webp" />
+                        <img src="img/piko/piko-hero.webp" alt="Piko hero image" />
                     </a>
                     <a class="studies-links" href="isle.html" data-title="ISLE">
-                        <img src="img/isle/isle-hero.webp" />
+                        <img src="img/isle/isle-hero.webp" alt="ISLE hero image" />
                     </a>
                     <a class="studies-links" href="forge.html" data-title="Forge">
-                        <img src="img/forge/forge-hero.webp" />
+                        <img src="img/forge/forge-hero.webp" alt="Forge hero image" />
                     </a>
-                    <a class="studies-links" href="hana.html" data-title="Hana">
-                        <img src="img/hana/hana-hero.webp" />
+                    <!-- <a class="studies-links" href="hana.html" data-title="Hana">
+                        <img src="img/hana/hana-hero.webp" alt="Hana hero image" />
                     </a>
                     <a class="studies-links" href="kuaina.html" data-title="Kuaina">
-                        <img src="img/kuaina/kuaina-hero.webp" />
+                        <img src="img/kuaina/kuaina-hero.webp" alt="Kuaina hero image" />
                     </a>
                     <a class="studies-links" href="artforyou.html" data-title="Art For You">
-                        <img src="img/afy/artforyou-hero.webp" />
-                    </a>
-                    <!-- <a class="studies-links" href="#" data-title="Glute U">
-                        <img src="img/gluteuniversity.jpg" />
+                        <img src="img/afy/artforyou-hero.webp" alt="Art For You hero image" />
                     </a> -->
                 </div>
             </section>
 
             <section class="section about-home animate-on-scroll">
-                <div class="content-wrapper animate-slide-up">
+                <div class="content-wrapper">
                     <div class="about">
                         <div class="about-text">
                             <h1 class="headline">About
@@ -102,9 +121,6 @@
                             <h3>ALOHA! I'm Tre Zamora, a Freelance Graphic Designer based in Honolulu, HI that
                                 specialize in Visual Identity, UX/UI, Type, and Print Design.
                             </h3>
-                            <!-- <p class="subheadline">Currently I am pursuing a Bachelor's degree in Creative Media with a
-                                concentration in Design & Media at UH West O&lsquo;ahu.
-                            </p> -->
                             <p class="subheadline">I've been a design hobbyist since 2015 before officially making it my
                                 career in 2021. Having worked with clients both locally and all the way on the east
                                 coast ranging in a vast array of industries including; education, finance, fitness, food
@@ -114,9 +130,14 @@
                                 solution at a time, starting with
                                 you!
                             </p>
-                            <!-- <a href="#" class="button2">Say Hello!</a> -->
+                            <div class="about-icons">
+                                <a href="www.linkedin.com/in/trezamora"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/trezamora"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="https://www.instagram.com/teezeethedesigner/"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                            </div>
                         </div>
-                        <div class="profile-hero-right flex-hero"></div>
+                        <div class="profile-hero-right flex-hero animate-slide-left"></div>
                     </div>
                 </div>
             </section>

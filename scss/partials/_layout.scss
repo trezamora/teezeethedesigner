@@ -79,6 +79,20 @@ body {
     }
 }
 
+.about-icons {
+    display: flex;
+    width: 100%;
+    padding-top: 1em;
+    // border: 2px solid red;
+
+    .fa-brands {
+        font-size: 2em;
+        color: $color-text-body-light;
+        padding: 0 .5em;
+        padding-left: 0;
+    }
+}
+
 /* MEDIA QUERIES */
 /* RESPONSIVE TYPOGRAPHY */
 
