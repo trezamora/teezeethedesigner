@@ -90,7 +90,7 @@ a {
     color: $color-text-body-dark;
 
     &:hover {
-        color: $color-green-dark;
+        color: $color-blue-dark;
     }
 }
 
@@ -118,4 +118,14 @@ hr {
     font-size: 1.5rem;
     margin: .25em 0;
     color: $color-text-body-light;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

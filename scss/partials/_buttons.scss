@@ -1,5 +1,9 @@
 /* BUTTONS */
 
+button {
+    border: none;
+}
+
 .button1 {
     display: inline-block;
     background-color: $color-yellow;
@@ -26,7 +30,7 @@
 
 .button2 {
     display: inline-block;
-    background-color: $color-yellow;
+    background-color: $color-blue-dark;
     color: white;
     text-decoration: none;
     padding: 1em;
@@ -41,7 +45,7 @@
 
     @keyframes pulse2 {
         0% {
-            box-shadow: 0 0 0 0 $color-yellow;
+            box-shadow: 0 0 0 0 $color-blue-dark;
         }
     }
 

@@ -139,7 +139,27 @@ hr {
   color: rgb(247, 247, 247);
 }
 
+.title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* BUTTONS */
+button {
+  border: none;
+}
+
 .button1 {
   display: inline-block;
   background-color: rgb(255, 212, 92);
@@ -171,7 +191,7 @@ hr {
 
 .button2 {
   display: inline-block;
-  background-color: rgb(255, 212, 92);
+  background-color: rgb(40, 96, 138);
   color: white;
   text-decoration: none;
   padding: 1em;
@@ -187,14 +207,14 @@ hr {
 }
 @-webkit-keyframes pulse2 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 92);
-            box-shadow: 0 0 0 0 rgb(255, 212, 92);
+    -webkit-box-shadow: 0 0 0 0 rgb(40, 96, 138);
+            box-shadow: 0 0 0 0 rgb(40, 96, 138);
   }
 }
 @keyframes pulse2 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 92);
-            box-shadow: 0 0 0 0 rgb(255, 212, 92);
+    -webkit-box-shadow: 0 0 0 0 rgb(40, 96, 138);
+            box-shadow: 0 0 0 0 rgb(40, 96, 138);
   }
 }
 
@@ -459,6 +479,16 @@ video {
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .bg-video {
   position: absolute;
   position: fixed;
@@ -519,17 +549,28 @@ video {
   width: 1500px;
 }
 
+.videobox {
+  margin: 0 auto;
+}
+.videobox h2 {
+  padding-right: 0.25em;
+  font-weight: 700;
+}
+
 .text {
   font-size: 1.5rem;
   text-transform: uppercase;
   margin: 0 auto;
-  padding: 0.5em 0;
+  padding: 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -546,14 +587,15 @@ video {
           justify-content: space-between;
 }
 
-.hover-video-videoBox {
+.hover-video-videobox {
   width: 30%;
   height: 700px;
-  overflow: hidden;
-  border-bottom: 10px solid rgb(255, 212, 92);
+}
+.hover-video-videobox video {
+  border-bottom: 20px solid rgb(248, 178, 78);
 }
 
-.hover-video-videoBox .video {
+.hover-video-videobox .video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -849,8 +891,14 @@ video {
 
 /* SITE NAV */
 .site-nav ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 0 0 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -886,7 +934,7 @@ video {
 
 /* SITE FOOTER */
 .site-footer {
-  background: transparent;
+  background-color: rgba(248, 178, 78, 0.9);
   padding: 3em;
   display: -ms-grid;
   display: grid;
@@ -896,6 +944,66 @@ video {
 }
 .site-footer a {
   color: rgb(247, 247, 247);
+}
+
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* CONTACT FORM */
+.contact-subpage #contact .white-p {
+  color: rgb(247, 247, 247);
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.blue-h2 {
+  text-transform: uppercase;
+  color: rgb(18, 125, 182);
+}
+
+.contact-subpage #contact .right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-subpage #contact .right-inner-container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  height: 100%;
+  text-align: center;
+}
+
+.contact-subpage #contact input,
+.contact-subpage #contact textarea {
+  background-color: rgb(247, 247, 247);
+  font-family: "montserrat", sans-serif;
+  border: none;
+  padding: 1em 0.75em;
+  margin: 1em 0;
+  width: 100%;
+  font-size: 0.8rem;
 }
 
 /* ANIMATIONS */
@@ -1178,6 +1286,7 @@ video {
 }
 
 .featured-container {
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 2em;
   display: -ms-grid;

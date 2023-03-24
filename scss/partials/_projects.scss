@@ -40,6 +40,7 @@
 // }
 
 .featured-container {
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 2em;
     display: grid;
@@ -273,8 +274,6 @@
     background-repeat: no-repeat;
     background-size: 400px 300px;
 }
-
-
 
 .artforyou-overlay {
     background-color: $color-background-light;

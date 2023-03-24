@@ -26,8 +26,10 @@
 
 .site-nav {
     ul {
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0 0 0;
         list-style: none;
         display: flex;
     }
@@ -60,7 +62,7 @@
 /* SITE FOOTER */
 
 .site-footer {
-    background: transparent;
+    background-color: rgba(248, 178, 78, .9);
     padding: 3em;
     display: grid;
     justify-content: center;
@@ -68,4 +70,51 @@
     a {
         color: $color-background-light;
     }
+}
+
+.contact-wrapper {
+    display: flex;
+}
+
+/* CONTACT FORM */
+
+.contact-subpage #contact .white-p {
+    color: $color-text-body-light;
+    text-align: left;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blue-h2 {
+    text-transform: uppercase;
+    color: $color-blue-light;
+}
+
+.contact-subpage #contact .right-container {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-subpage #contact .right-inner-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+}
+
+.contact-subpage #contact input,
+.contact-subpage #contact textarea {
+    background-color: $color-background-light;
+    font-family: $font-family-sans;
+    border: none;
+    padding: 1em .75em;
+    margin: 1em 0;
+    width: 100%;
+    font-size: .8rem;
 }
