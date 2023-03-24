@@ -95,3 +95,39 @@ video {
         }
     }
 }
+
+
+.feat-container {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: .5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-video-wrapper {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-video-videoBox {
+    width: 30%;
+    height: 700px;
+    overflow: hidden;
+    border-bottom: 10px solid $color-yellow;
+}
+
+.hover-video-videoBox .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
