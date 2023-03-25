@@ -59,6 +59,16 @@
     padding-top: 1em;
 }
 
+.project-nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
 /* SITE FOOTER */
 
 .site-footer {
