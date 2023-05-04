@@ -596,7 +596,7 @@ video {
   .profile-hero-right {
     width: 50%;
     height: 100%;
-    background: url(../img/photo.webp);
+    background: url(../img/tztd-profile-1.jpg);
     background-position: center;
     background-size: cover;
     -webkit-transition: all 1s;
@@ -606,13 +606,20 @@ video {
   }
   .profile-hero-right:hover {
     width: 55%;
+    background: url(../../img/tztd-profile-2.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
 @media (min-width: 768px) {
   .profile-hero-right {
     width: 50%;
     height: 100%;
-    background: url(../img/photo.webp);
+    background: url(../img/tztd-profile-1.jpg);
     background-position: center;
     background-size: cover;
     -webkit-transition: all 1s;
@@ -622,6 +629,14 @@ video {
   }
   .profile-hero-right:hover {
     width: 55%;
+    width: 55%;
+    background: url(../../img/tztd-profile-2.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
 @media (min-width: 1050px) {
@@ -1101,6 +1116,8 @@ video {
 [data-sectionstate=inactive] .animate-slide-up {
   -webkit-transition: all 1000ms ease-out;
   transition: all 1000ms ease-out;
+  -webkit-transition-delay: 350ms;
+          transition-delay: 350ms;
   opacity: 0;
   -webkit-transform: translate(0, 50px);
           transform: translate(0, 50px);

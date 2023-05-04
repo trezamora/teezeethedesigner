@@ -30,7 +30,7 @@
     .profile-hero-right {
         width: 50%;
         height: 100%;
-        background: url(../img/photo.webp);
+        background: url(../img/tztd-profile-1.jpg);
         background-position: center;
         background-size: cover;
         transition: all 1s;
@@ -39,6 +39,11 @@
 
     .profile-hero-right:hover {
         width: 55%;
+        background: url(../../img/tztd-profile-2.jpg);
+        background-position: center;
+        background-size: cover;
+        transition: all 1s;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 }
 
@@ -46,7 +51,7 @@
     .profile-hero-right {
         width: 50%;
         height: 100%;
-        background: url(../img/photo.webp);
+        background: url(../img/tztd-profile-1.jpg);
         background-position: center;
         background-size: cover;
         transition: all 1s;
@@ -55,6 +60,12 @@
 
     .profile-hero-right:hover {
         width: 55%;
+        width: 55%;
+        background: url(../../img/tztd-profile-2.jpg);
+        background-position: center;
+        background-size: cover;
+        transition: all 1s;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 }
 
