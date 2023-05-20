@@ -775,7 +775,7 @@ video {
   }
   .profile-hero-right:hover {
     width: 55%;
-    background: url(../../img/coming-soon.webp);
+    background: url(../img/coming-soon.webp);
     background-position: center;
     background-size: cover;
     -webkit-transition: all 1s;
@@ -799,7 +799,7 @@ video {
   .profile-hero-right:hover {
     width: 55%;
     width: 55%;
-    background: url(../../img/coming-soon.webp);
+    background: url(../img/coming-soon.webp);
     background-position: center;
     background-size: cover;
     -webkit-transition: all 1s;
